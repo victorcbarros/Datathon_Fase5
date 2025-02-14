@@ -12,7 +12,7 @@ st.title('DATATHON: Impacto da ONG Passos Mágicos')
 
 st.header('Introdução 🌍')
 st.markdown(textos.texto_introducao, unsafe_allow_html=True)
-st.image('images/image2.webp', use_container_width=True)
+#st.image('images/image2.webp', use_container_width=True)
 st.header('Dashboard e Insights 📊')
 st.markdown(textos.texto_analise_parte1_introdutorio, unsafe_allow_html=True)
 st.markdown(
