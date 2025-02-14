@@ -4,10 +4,10 @@ import streamlit as st
 
 st.set_page_config(layout='wide')
 
-st.title('DATATHON: Impacto da ONG Passos Mágicos')
+st.title('DATATHON: Impacto da ONG Passos Mágicos 📚')
 
 # Introdução
-st.header("Introdução")
+st.header("Introdução💡")
 st.write(
   "A **ONG Passos Mágicos** tem desempenhado um papel fundamental na transformação da educação de crianças e jovens em situação de vulnerabilidade social. Seu compromisso vai além do ensino tradicional, proporcionando suporte acadêmico, social e emocional para garantir que cada estudante tenha oportunidades reais de crescimento e desenvolvimento."  
 "Este relatório apresenta uma análise detalhada do impacto da ONG entre **2022 e 2024**, destacando os avanços no desempenho acadêmico, as diferenças entre escolas públicas e privadas, o engajamento dos alunos e os desafios ainda existentes. Através de indicadores educacionais e sociais, buscamos compreender como a ONG tem impulsionado a melhoria da educação e o que pode ser feito para potencializar ainda mais seus resultados.  "
@@ -18,7 +18,7 @@ st.write(
 
 
 # Pergunta 1
-st.header("1. Como a ONG tem transformado a educação de crianças em vulnerabilidade social?")
+st.header("1. Como a ONG tem transformado a educação de crianças em vulnerabilidade social?✏️")
 st.write(
     "A **ONG Passos Mágicos** tem uma missão poderosa: transformar vidas por meio da educação. "
     "Com foco em crianças e jovens em situação de vulnerabilidade social, a organização oferece suporte "
@@ -30,20 +30,20 @@ st.write(
 st.divider()
 
 # Seção 2: Perfil dos Alunos
-st.header("2. Quem são os alunos impactados pela ONG?")
+st.header("2. Quem são os alunos impactados pela ONG?📖")
 st.write("A maioria dos alunos atendidos está na faixa etária de **5 a 17 anos**, com maior concentração aos **10 anos**.")
 
 st.divider()
 
 # Seção 3: Desempenho Acadêmico
-st.header("3. O desempenho acadêmico tem melhorado?")
+st.header("3. O desempenho acadêmico tem melhorado?📈")
 st.write("Evolução do Índice de Desempenho Educacional (INDE):")
 st.metric("2022", "6.41")
 st.metric("2023", "6.58")
 st.metric("2024", "6.64")
 
 # Sub-seção: Comparação por escola
-st.subheader("3.1 Diferenças entre escolas privadas e públicas")
+st.subheader("3.1 Diferenças entre escolas privadas e públicas🔍")
 col1, col2 = st.columns(2)
 with col1:
     st.write("### Instituições Privadas")
@@ -59,7 +59,7 @@ with col2:
 st.divider()
 
 # Seção 4: Classificação por Pedras
-st.header("4. O que significa a classificação por 'Pedras'?")
+st.header("4. O que significa a classificação por 'Pedras'?🤝")
 st.write("A categorização dos alunos mostra avanços no aprendizado.")
 st.table({
     "Categoria": ["Quartzo", "Ágata", "Ametista", "Topázio"],
@@ -71,7 +71,7 @@ st.table({
 st.divider()
 
 # Seção 5: Desenvolvimento Social
-st.header("5. Além do aprendizado acadêmico, como está o desenvolvimento social dos alunos?")
+st.header("5. Além do aprendizado acadêmico, como está o desenvolvimento social dos alunos?🏫")
 st.write("Os indicadores sociais também mostram melhorias:")
 
 col1, col2, col3 = st.columns(3)
@@ -85,7 +85,7 @@ with col3:
 st.divider()
 
 # Seção 6: Engajamento
-st.header("6. Engajamento: quanto maior, melhor o desempenho?")
+st.header("6. Engajamento: quanto maior, melhor o desempenho?🎓")
 st.write("Os alunos com maior número de atividades concluídas apresentam melhor desempenho.")
 st.metric("Índice de Engajamento", "6.4", delta="-0.3")
 
@@ -95,7 +95,7 @@ f"<div style='display: flex; justify-content: center;'><iframe src='{'https://ap
 unsafe_allow_html=True)
 
 # Conclusão
-st.header("7. Conclusão")
+st.header("7. Conclusão🌟")
 st.write(
 "Os dados evidenciam que a atuação da **ONG Passos Mágicos** tem gerado um impacto positivo na vida de centenas de crianças e jovens. O aumento no desempenho acadêmico e no engajamento demonstra que as estratégias pedagógicas adotadas estão no caminho certo, reduzindo desigualdades entre escolas públicas e privadas."  
 
