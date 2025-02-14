@@ -16,7 +16,7 @@ st.header('Dashboard e Insights 📊')
 st.markdown(textos.texto_analise_parte1_introdutorio, unsafe_allow_html=True)
 st.markdown(textos.texto_analise_parte1, unsafe_allow_html=True)
 st.markdown(
-f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url_parte1}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
+f"<div style='display: flex; justify-content: center;'><iframe src='{'https://app.powerbi.com/view?r=eyJrIjoiMGZlYjg3NTYtZTU2OC00MmQ1LTgwN2QtMGI2NzcxMzVkOGQ3IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9'}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
 unsafe_allow_html=True)
 st.markdown(textos.texto_analise_parte2, unsafe_allow_html=True)
 st.header('Conclusão 📝')
