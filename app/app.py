@@ -1,29 +1,23 @@
 import streamlit as st
-import textos
 
-power_bi_url_parte1 = "https://app.powerbi.com/view?r=eyJrIjoiMGZlYjg3NTYtZTU2OC00MmQ1LTgwN2QtMGI2NzcxMzVkOGQ3IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
 
 
 st.set_page_config(layout='wide')
 
 st.title('DATATHON: Impacto da ONG Passos Mágicos')
 
-
-#st.header('Introdução 🌍')
-#st.markdown(textos.texto_introducao, unsafe_allow_html=True)
-##st.image('images/image2.webp', use_container_width=True)
-#st.header('Dashboard e Insights 📊')
-#st.markdown(
-#f"<div style='display: flex; justify-content: center;'><iframe src='{'https://app.powerbi.com/view?r=eyJrIjoiMGZlYjg3NTYtZTU2OC00MmQ1LTgwN2QtMGI2NzcxMzVkOGQ3IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9'}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
-#unsafe_allow_html=True)
-#st.markdown(textos.texto_analise_parte2, unsafe_allow_html=True)
-#st.header('Conclusão 📝')
-#st.markdown(textos.texto_conclusao, unsafe_allow_html=True)
-#st.header('Referências')
-#st.markdown(textos.texto_final, unsafe_allow_html=True)
-
-
 # Introdução
+st.header("Introdução")
+st.write(
+  "A **ONG Passos Mágicos** tem desempenhado um papel fundamental na transformação da educação de crianças e jovens em situação de vulnerabilidade social. Seu compromisso vai além do ensino tradicional, proporcionando suporte acadêmico, social e emocional para garantir que cada estudante tenha oportunidades reais de crescimento e desenvolvimento."  
+"Este relatório apresenta uma análise detalhada do impacto da ONG entre **2022 e 2024**, destacando os avanços no desempenho acadêmico, as diferenças entre escolas públicas e privadas, o engajamento dos alunos e os desafios ainda existentes. Através de indicadores educacionais e sociais, buscamos compreender como a ONG tem impulsionado a melhoria da educação e o que pode ser feito para potencializar ainda mais seus resultados.  "
+)
+
+
+
+
+
+# Pergunta 1
 st.header("1. Como a ONG tem transformado a educação de crianças em vulnerabilidade social?")
 st.write(
     "A **ONG Passos Mágicos** tem uma missão poderosa: transformar vidas por meio da educação. "
@@ -99,3 +93,13 @@ st.divider()
 st.markdown(
 f"<div style='display: flex; justify-content: center;'><iframe src='{'https://app.powerbi.com/view?r=eyJrIjoiMGZlYjg3NTYtZTU2OC00MmQ1LTgwN2QtMGI2NzcxMzVkOGQ3IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9'}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
 unsafe_allow_html=True)
+
+# Conclusão
+st.header("7. Conclusão")
+st.write(
+"Os dados evidenciam que a atuação da **ONG Passos Mágicos** tem gerado um impacto positivo na vida de centenas de crianças e jovens. O aumento no desempenho acadêmico e no engajamento demonstra que as estratégias pedagógicas adotadas estão no caminho certo, reduzindo desigualdades entre escolas públicas e privadas."  
+
+"No entanto, ainda há desafios a serem superados, especialmente no desenvolvimento social dos alunos e na manutenção do engajamento a longo prazo. O crescimento da participação de alunos mais velhos e a recuperação dos índices acadêmicos em 2024 reforçam a importância de continuar investindo em metodologias inovadoras, suporte individualizado e ações que incentivem a permanência na escola."  
+
+"Com um olhar atento para os desafios e um compromisso contínuo com a educação, a **ONG Passos Mágicos** segue transformando vidas, oferecendo novas oportunidades e construindo um futuro mais promissor para crianças e jovens em situação de vulnerabilidade social. 🚀"
+)
