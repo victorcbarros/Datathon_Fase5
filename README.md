@@ -1,65 +1,82 @@
-# Tech Challenge – Pós Tech Data Analytics FIAP  
+# Tech Challenge – Pós Tech Data Analytics FIAP
 
-## Introdução  
-Este projeto integra o Tech Challenge da Pós Tech Data Analytics FIAP, como parte da avaliação da quinta fase. O grupo responsável por seu desenvolvimento é composto por:  
+## Introdução
 
-- **Aelton Pereira de Lacerda**  
-- **André Martins Pontes**  
-- **Arthur do Nascimento Siqueira**  
-- **Matheus Martins Matias Rodrigues**  
-- **Victor Campanha Barros**  
+Este projeto integra o **Tech Challenge** da **Pós Tech Data Analytics FIAP**, como parte da avaliação da quinta fase. O grupo responsável pelo seu desenvolvimento é composto por:
 
-Link do projeto : 
+👨‍💻 **Aelton Pereira de Lacerda**  
+👨‍💻 **André Martins Pontes**  
+👨‍💻 **Arthur do Nascimento Siqueira**  
+👨‍💻 **Matheus Martins Matias Rodrigues**  
+👨‍💻 **Victor Campanha Barros**  
+
+
+
+---
+
+## 📌 Visão Geral
+
+Este projeto busca analisar e medir o impacto da **ONG Passos Mágicos** na educação de crianças e jovens em situação de vulnerabilidade social. Utilizando dados coletados entre **2022 e 2024**, aplicamos métodos de **análise exploratória**, **modelagem de dados** e **visualização interativa** para identificar avanços e desafios enfrentados pela ONG.
+
+Nosso objetivo é fornecer insights que ajudem a otimizar a atuação da instituição e maximizar os benefícios para os estudantes atendidos.
+
+---
+
+## 💼 Entendimento do Negócio
+
+A **ONG Passos Mágicos** tem como missão transformar vidas por meio da educação. Para entender o impacto do seu trabalho, analisamos indicadores acadêmicos e sociais, identificando padrões e propondo soluções baseadas em dados.
+
+### **Principais Indicadores Analisados:**
+📊 **Índice de Desempenho Educacional (INDE)**  
+📊 **Índice de Aproveitamento Acadêmico (IAA)**  
+📊 **Índice de Proficiência Social (IPS)**  
+📊 **Índice de Progresso de Vida (IPV)**  
+📊 **Índice de Engajamento (IEG)**
+
+Esses indicadores foram analisados considerando diferentes grupos, como **instituições privadas e públicas**, **faixa etária dos alunos**, **gênero** e **nível de engajamento**.
+
+---
+
+## 📜 Estrutura do Projeto
+
+A estrutura do projeto foi organizada de forma modular para facilitar a gestão dos dados e a reprodução dos resultados.
+
+📁 **app/** – Arquivos do MVP desenvolvido em Streamlit  
+📁 **dashboard/** – Dashboard em PowerBI
+
+---
+
+## 🛠 Tratamento e Limpeza dos Dados
+
+Os dados foram coletados via **API** e passaram por um processo rigoroso de limpeza e padronização. Utilizamos as seguintes etapas:
  
----
-
-## 📌 Visão Geral  
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+✅ **Tratamento** e limpeza com **Pandas** e **Power BI**  
+✅ **Criação de visualizações interativas** em Power BI  
+✅ **Deploy do MVP** em **Streamlit**  
 
 ---
 
-## 💼 Entendimento do Negócio  
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## 📊 Análise dos Dados
 
+A análise de dados revelou padrões significativos no aprendizado e no engajamento dos alunos. Algumas das principais descobertas incluem:
 
-**Principais Indicadores Analisados:**  
-- Lorem Ipsum 
-- Lorem Ipsum  
-- Lorem Ipsum 
-
----
-
-## 📜 Estrutura do Projeto  
-A estrutura de diretórios do projeto foi organizada da seguinte forma: 
-
-
-
-
-## 🛠 Tratamento e Limpeza dos Dados  
-Os dados foram extraídos via API, tratados e limpos para garantir sua qualidade. Utilizamos **PowerBI** para remoção de valores ausentes, duplicados e inconsistentes, bem como para padronização de formatos.  
-
-**Etapas:**  
-1. Extração dos dados via API  
-2. Limpeza e tratamento utilizando Pandas e PowerBI
-3. Dashboard Interativo com PowerBI 
-4. Deploy do MVP com Streamlit 
+📌 **Alunos de escolas públicas têm apresentado avanço constante no INDE**
+📌 **Meninas apresentam desempenho ligeiramente superior ao dos meninos**
+📌 **O engajamento tem forte correlação com o desempenho acadêmico**
+📌 **A classificação "Pedras" evidencia progressão acadêmica significativa**
 
 ---
 
-## 📊 Análise dos Dados  
-A análise de dados é o cerne deste projeto, revelando insights cruciais sobre a ONG Passos Magicos. Foram analisados 
+## 📈 Conclusão
+
+Os resultados do projeto indicam que a **ONG Passos Mágicos** tem um impacto positivo significativo na educação das crianças atendidas. Apesar dos desafios, especialmente no desenvolvimento social e na manutenção do engajamento, observamos uma evolução contínua dos principais indicadores educacionais.
+
+🔹 **Redução da desigualdade** entre escolas públicas e privadas  
+🔹 **Melhoria no desempenho acadêmico** geral dos alunos  
+🔹 **Impacto positivo das intervenções pedagógicas** aplicadas
+
+Para uma visão completa do estudo, recomendamos o acesso ao **relatório completo** e ao **dashboard interativo** no link abaixo:
+
+🔗 **[MVP Streamlit](https://tech-challenge5-datathon-grupo53.streamlit.app/)**
 
 
-**Etapas de Análise:**  
-1. Lorem Ipsum   
-2. Lorem Ipsum  
-3. Lorem Ipsum  
-
----
-
-## 📈 Conclusão 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Recomendamos o acesso completo ao relatorio e Dashboard no link **["MVP Streamlit"]()**, disponível tambem neste repositorio do projeto, para uma visão detalhada das metodologias e insights deste estudo. 

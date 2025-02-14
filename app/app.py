@@ -102,4 +102,23 @@ st.write(
 "No entanto, ainda há desafios a serem superados, especialmente no desenvolvimento social dos alunos e na manutenção do engajamento a longo prazo. O crescimento da participação de alunos mais velhos e a recuperação dos índices acadêmicos em 2024 reforçam a importância de continuar investindo em metodologias inovadoras, suporte individualizado e ações que incentivem a permanência na escola."  
 
 "Com um olhar atento para os desafios e um compromisso contínuo com a educação, a **ONG Passos Mágicos** segue transformando vidas, oferecendo novas oportunidades e construindo um futuro mais promissor para crianças e jovens em situação de vulnerabilidade social. 🚀"
+
+"Este projeto faz parte do projeto Tech Challenge da Pós Tech Data Analytics FIAP e conta como nota da quinta fase da pós-graduação."
+"O grupo que desenvolveu esse projeto é composto por:"
+
+"Aelton Pereira de Lacerda"
+
+"André Martins Pontes"
+
+"Arthur do Nascimento Siqueira"
+
+"Matheus Martins Matias Rodrigues"
+
+"Victor Campanha Barros"
+
+
+"O link do repositorio do github com todos os arquivos pode ser acessado clicando no simbolo do github no menu superior direito"
+"e no link abaixo : "
+"https://github.com/victorcbarros/Datathon_Fase5"    
+
 )
