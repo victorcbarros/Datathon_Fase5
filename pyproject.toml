@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Victor Barros <victorbarros51@gmail.com>"]
 readme = "README.md"
-packages = [{include = "datathon_fase5"}] 
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
