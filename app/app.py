@@ -103,22 +103,21 @@ st.write(
 
 "Com um olhar atento para os desafios e um compromisso contínuo com a educação, a **ONG Passos Mágicos** segue transformando vidas, oferecendo novas oportunidades e construindo um futuro mais promissor para crianças e jovens em situação de vulnerabilidade social. 🚀"
 
-"Este projeto faz parte do projeto Tech Challenge da Pós Tech Data Analytics FIAP e conta como nota da quinta fase da pós-graduação."
-"O grupo que desenvolveu esse projeto é composto por:"
+"Este projeto faz parte do projeto Tech Challenge da Pós Tech Data Analytics FIAP e conta como nota da quinta fase da pós-graduação.")
+st.markdown("""O grupo que desenvolveu esse projeto é composto por:
 
-"Aelton Pereira de Lacerda"
+Aelton Pereira de Lacerda
 
-"André Martins Pontes"
+André Martins Pontes
 
-"Arthur do Nascimento Siqueira"
+Arthur do Nascimento Siqueira
 
-"Matheus Martins Matias Rodrigues"
+Matheus Martins Matias Rodrigues
 
-"Victor Campanha Barros"
+Victor Campanha Barros
 
 
-"O link do repositorio do github com todos os arquivos pode ser acessado clicando no simbolo do github no menu superior direito"
-"e no link abaixo : "
-"https://github.com/victorcbarros/Datathon_Fase5"    
-
-)
+O link do repositorio do github com todos os arquivos pode ser acessado clicando no simbolo do github no menu superior direito"
+e no link abaixo : 
+https://github.com/victorcbarros/Datathon_Fase5    
+""")
